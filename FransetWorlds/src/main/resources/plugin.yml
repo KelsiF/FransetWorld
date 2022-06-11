@@ -1,0 +1,11 @@
+name: Fransetworlds
+version: '${project.version}'
+main: me.kelsi.fransetworlds
+api-version: 1.16
+authors: [ Kelsi ]
+commands:
+  newworld:
+    description: creating new world
+    usage: /<command>
+
+softdepend: [PlaceholderAPI] # This is used, if your plugin works without PlaceholderAPI.
